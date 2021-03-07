@@ -14,13 +14,17 @@ Automation.ps1 - used to launch the automation task
 
 #Create sybmbolic link
 
-`> mklink Automation C:\feed\dev`
+`> mklink Automation F:\feed\dev`
 
-- Navigate to C:\feed\dev and launch the sysmbolic link **Automation** as follows
+- Navigate to F:\feed\dev and launch the sysmbolic link **Automation** as follows
 
 `dev>./idifeed Automation.xml Automation`
 
 *idifeed*
 *Automation.xml*
 
--
+-idifeed determines environment/server from the directory: toolsol-$currrentEnv (toolsol-dev, toolsol-uat, etc.)
+-idifeed ignites the following command
+
+`F:\scripts\tdi-idifeed $args[0] $args[1] toolsol-$currrentEnv`
+
