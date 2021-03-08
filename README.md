@@ -18,7 +18,7 @@ Automation.ps1 - used to launch the automation task
 
 - Navigate to F:\feed\dev and launch the sysmbolic link **Automation** as follows
 
-`dev>./idifeed Automation.xml Automation`
+`dev>./idifeed Automation.xml AutomationAL`
 
 *idifeed*
 *Automation.xml*
