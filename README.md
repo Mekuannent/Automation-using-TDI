@@ -12,11 +12,11 @@ How to works:
 
 Automation.ps1 - used to launch the automation task
 
-#Create sybmbolic link
+#Create sybmbolic link for Automation
 
 `> mklink Automation F:\feed\dev`
 
-- Navigate to F:\feed\dev and launch the sysmbolic link **Automation** as follows
+- Launching **Automation** triggers
 
 `dev>./idifeed Automation.xml AutomationAL`
 
