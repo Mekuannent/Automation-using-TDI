@@ -1,12 +1,12 @@
 # Automation-using-TDI
 The Program perfoms the following activities:
 - connect to a database system 
-- identity inactive accts
-- change status of the acct
+- identity accts inactive for more than 30 days
+- change status of the acct to suspended
 - send the list of identified inactive accts to an email
-- check the status again 
-- if the status remains inactive for more than 300 days, save the list into a separate database
-- delete the list from ISIM
+- identify status suspended accts  
+- if they are inactive for more than 60 days, save them into a separate database and
+- delete them from ISIM
 
 How to works:
 
